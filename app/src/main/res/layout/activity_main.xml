@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/welcomeText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="@string/welcome"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/body"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/montserrat"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="@string/body"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/welcomeText" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:orientation="vertical"
+        android:padding="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/body">
+
+        <TextView
+            android:id="@+id/item_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/bullet_header"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/item_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat"
+            android:padding="5dp"
+            android:text="@string/bullet_1" />
+
+        <TextView
+            android:id="@+id/item_2"
+            style="@style/homepage_items"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat"
+            android:text="@string/bullet_2" />
+
+        <TextView
+            android:id="@+id/item_3"
+            style="@style/homepage_items"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat"
+            android:text="@string/bullet_3" />
+
+        <TextView
+            android:id="@+id/item_4"
+            style="@style/homepage_items"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/bullet_4" />
+
+        <TextView
+            android:id="@+id/item_5"
+            style="@style/homepage_items"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/bullet_5" />
+
+        <TextView
+            android:id="@+id/item_6"
+            style="@style/homepage_items"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/bullet_6" />
+
+        <TextView
+            android:id="@+id/item_7"
+            style="@style/homepage_items"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/bullet_7" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/getStartedBtn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/btn_layout"
+        android:fontFamily="@font/montserrat"
+        android:onClick="onGetStartedBtnClick"
+        android:text="@string/startBtn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>

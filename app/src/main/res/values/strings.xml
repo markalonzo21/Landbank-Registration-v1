@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Landbank Registration</string>
+    <string name="scanbtn">Start Scanning</string>
+
+    <!-- start home page text -->
+    <string name="welcome">Welcome to Landbank Online Registration</string>
+    <string name="body">This app provides faster process for creating bank account for
+        Landbank, before we proceed please read the instruction.
+    </string>
+    <string name="bullet_header">Prepare any three goverment issued ID</string>
+    <string name="bullet_1">&#8226; SSS ID/UMID old/new version is okay</string>
+    <string name="bullet_2">&#8226; Passport</string>
+    <string name="bullet_3">&#8226; Drivers License</string>
+    <string name="bullet_4">&#8226; Make sure you are connected to the internet</string>
+    <string name="bullet_5">&#8226; Do not move the ID during the scanning procedure for more accurate result</string>
+    <string name="bullet_6">&#8226; Verify the Scan result, re-scan if something is off</string>
+    <string name="bullet_7">&#8226; Face Recognition for the verification of ID ownership</string>
+    <string name="startBtn">Get Started</string>
+    <!-- end home page text -->
+
+    <!-- start  check box items -->
+    <string name="cb_umid">UMID</string>
+    <string name="cb_driversLicense">Drivers License</string>
+    <string name="cb_passport">Passport</string>
+    <string name="cb_postal">Postal ID</string>
+    <string name="cb_philhealth">Philhealth ID</string>
+    <string name="cb_tin">Tax Identification Number ID</string>
+    <string name="nextbtn">Next</string>
+    <!-- end check box items -->
+
+    <string name="checkboxTitle">Select 3 Document to Scan</string>
+    <string-array name="cb_items">
+        <item>UMID</item>
+        <item>Passport</item>
+        <item>Drivers License</item>
+        <item>Postal ID</item>
+        <item>Philhealth ID</item>
+        <item>Tax Identification Number ID</item>
+    </string-array>
+
+    <string name="item_detail">Click item to scan</string>
+
+    <!-- start guide-->
+    <string name="step2">Select 3 Goverment Issued ID to Scan</string>
+    <string name="step3">Select document which to scan first</string>
+
+<!-- face recognition-->
+    <string name="fr_home">Welcome to New World!</string>
+
+</resources>
